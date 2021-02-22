@@ -16,4 +16,5 @@ fun main() {
         guess =sc.nextInt()
     }
     println("Noice")
+    sc.close()
 }

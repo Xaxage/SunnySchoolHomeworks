@@ -12,4 +12,5 @@ fun main() {
         println("$num * $i = " + num*i)
         i++
     }
+    sc.close()
 }

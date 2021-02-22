@@ -22,6 +22,7 @@ fun main() {
         else if (number % 2 != 0)
             println("White")
     }
+    sc.close()
 }
 
 

@@ -14,4 +14,5 @@ fun main() {
         if(check==0)
             break
     }
+    sc.close()
 }

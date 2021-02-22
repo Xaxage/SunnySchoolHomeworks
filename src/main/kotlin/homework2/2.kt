@@ -10,4 +10,5 @@ fun main() {
      0-> println("Its an EVEN number")
         else-> println("Its an ODD number")
     }
+    sc.close()
 }

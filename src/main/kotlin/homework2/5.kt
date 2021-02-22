@@ -25,4 +25,5 @@ fun main() {
     }
 
     println(" $countMinus negative \n $count0 0 \n $countPlus positive")
+    sc.close()
 }

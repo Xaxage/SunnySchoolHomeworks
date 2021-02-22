@@ -1,3 +1,5 @@
+package homework3
+
 import java.lang.System.`in`
 import java.util.*
 
@@ -11,4 +13,5 @@ fun main(args: Array<String>) {
         if(i!=1)
             print(",")
     }
+    sc.close()
 }
