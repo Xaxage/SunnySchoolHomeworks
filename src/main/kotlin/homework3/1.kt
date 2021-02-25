@@ -3,8 +3,8 @@ import java.util.*
 fun main(args: Array<String>) {
     val array = arrayOf<String>("10","20","30","40","50")
     //println(Arrays.toString(addElementInArray(array,"40")))
-    //println(Arrays.toString(removeElementFromArray(array,"10")))
-    println(Arrays.toString(copyArray(array)))
+    println(Arrays.toString(removeElementFromArray(array,"30")))
+    //println(copyArray(array).contentToString())
 }
 
 fun addElementInArray(array:Array<String>,newElement: String) :Array<String?>{
@@ -23,7 +23,7 @@ fun removeElementFromArray(array:Array<String>, element: String) :Array<String?>
     var array2: Array<String?> = arrayOfNulls(array.size-1)
     var chosen=0
     var i=0;
-    while(i!=array.size-1 && array[0]!=element){
+    while(i!=array.size-1 && array[0]!=element){//Checking if it contains
         array2[i]=array[i]
         if(array2[i]==element){
             chosen=i
